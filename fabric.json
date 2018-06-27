@@ -1,0 +1,19 @@
+{
+  "website" : {
+
+    "upa" : {
+      "mysql" : "upa",
+      "mysql_backup" : "/var/backups/mysql/upa.sql.bz2",
+      "git" : "git clone git@git.mitija.com:websites/upa.git",
+      "setting_file" : "configuration_files/upa/settings.php upa/sites/default/"
+      },
+
+    "perigourdine" : {
+      "mysql" : "laperigourdine",
+      "mysql_backup" : "/var/backups/mysql/laperigourdine.sql.bz2",
+      "git" : "git clone git@git.mitija.com:websites/perigourdine.git",
+      "setting_file" : "configuration_files/perigourdine/settings.php perigourdine/sites/default/"
+
+    }
+  }
+}
